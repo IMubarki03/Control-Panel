@@ -1,10 +1,12 @@
 # Robot Control Panel
 ## Introduction
-A _robot control panel_ will be responsible for the human-controlled motion of the robot, and it will be a webpage that interact with people through input buttons; to move the robot in right, left, forward, and backward direction. 
+A _robot control panel_ will be responsible for the human-controlled motion of the robot, and it will be a webpage that interact with people through input buttons; to move the robot in right, left, forward, and backward direction.
+
 ## Requirements
 - Webpage(html, php)
 - Local server(xampp)
 - Database(phpMyAdmin - via xampp)
+
 ## Procedure
 ### Webpage(html, php)
 1. Download a text editor. I downloaded VS code, and I highely recommend it.
@@ -24,3 +26,10 @@ A _robot control panel_ will be responsible for the human-controlled motion of t
 6. We will be considering 4 attributes for each column: Name, Type, Length, and AI(Auto_Increment)-or not-.
 7. The first column is the unique id or number of the move. So, we will name it "No.", type "INT", length "100", AI.
 8. The second column will save the move. So, we will name it "direction", type "VARCHAR", length "255", not AI.
+
+### Result
+<img width="959" alt="forward" src="https://github.com/user-attachments/assets/48e2463c-d6d8-4647-afc6-3e5714d7f4c9">
+
+<img width="959" alt="left" src="https://github.com/user-attachments/assets/2b584014-5be0-4efa-8bd0-cbe62b444ef5">
+
+<img width="959" alt="DB" src="https://github.com/user-attachments/assets/7fb50421-bcb2-47c0-8ea9-f83ac25da872">
